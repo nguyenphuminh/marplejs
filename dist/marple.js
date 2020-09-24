@@ -1,4 +1,4 @@
-function sumOfArray(arr){
+function sum(arr){
 	let result=0;
 	for (i=0;i<arr.length;i++){
 		result+=arr[i];
@@ -6,12 +6,12 @@ function sumOfArray(arr){
 	return result;
 }
 
-function OddOrEven(num){
-	if (num % 2 == 0){
-		return num.toString() + " is even";
-	} else {
-		return num.toString() + " is odd";
-	}
+function odd(num){
+	return num%2==0;
+}
+
+function even(num){
+	return num%2!=0;
 }
 
 function sumToN(n){
@@ -24,7 +24,7 @@ function sumToN(n){
 	return result;
 }
 
-function leastCommonMultiple(a,b){
+function lcm(a,b){
 	let bcnn=0;
 	let k=1;
 	while (true){
@@ -37,7 +37,7 @@ function leastCommonMultiple(a,b){
 	return bcnn;
 }
 
-function greatestCommonDivisor(a,b){
+function gcd(a,b){
 	let ucln=1;
 	for (let i=1;i<=a;i++){
 		if (a%i==0 && b%i==0){
@@ -47,13 +47,13 @@ function greatestCommonDivisor(a,b){
 	return ucln;
 }
 
-function randomNumInt(a,b){
-	let result = Math.floor(Math.random() * ++b) + a ;
+function rndI(a,b){
+	let result = Math.floor(Math.random() * (b+1)) + a;
 	return result;
 }
 
-function randomNum(a,b){
-	let result = Math.random() * ++b + a ;
+function rnd(a,b){
+	let result = Math.random() * (b+1) + a;
 	return result;
 }
 
@@ -99,7 +99,7 @@ function divisible(a,b){
 	}
 }
 
-function isPrime(a){
+function prime(a){
 	for (i=2;i<n;i++){
 		if (n%i!=0){
 			return false;
@@ -126,4 +126,28 @@ function min(arr){
 		}
 	}
 	return min;
+}
+
+function sin(a){
+	return Math.sin(a);
+}
+
+function abs(a){
+	return Math.abs(a);
+}
+
+function isFin(a){
+	return a==Infinity || Number.isNaN(a);
+}
+
+function isNaN(a){
+	return a==Number.isNaN(a);
+}
+
+function cos(a){
+	return Math.cos(a);
+}
+
+function tan(a){
+	return Math.tan(a);
 }
