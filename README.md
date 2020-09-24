@@ -1,5 +1,5 @@
 # MarpleJS
-The Marple.js library for simple Math
+A simple, lightweighted Javascript Math library 
 
 ## Usage
 In your .html file, insert this to the "head" tag:
@@ -32,3 +32,8 @@ In your .html file, insert this to the "head" tag:
 <li>isNaN(a)</li>
 <li>cos(a)</li>
 <li>tan(a)</li>
+
+## Copyrights and License
+Copyrighted © 2020 Nguyen Phu Minh
+
+This library is licensed under the MIT License
