@@ -1,5 +1,6 @@
 <div align='center'>
     <img src='assets/logo.png'/>
+    <br/>
     <b>MarpleJS is a light-weight Javascript library for simple Maths</b>
 </div>
 <br/>
