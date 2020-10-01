@@ -1,5 +1,9 @@
-# MarpleJS
-A simple, lightweighted Javascript Math library 
+<div align='center'>
+    <img src='assets/logo.png'/>
+</div>
+<br/>
+<br/>
+<b>MarpleJS is a light-weight Javascript library for simple Maths</b>
 
 ## Usage
 In your .html file, insert this to the "head" tag:
