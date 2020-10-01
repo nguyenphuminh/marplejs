@@ -76,9 +76,7 @@ function toFix(a,b){
 	return Number(a.toFixed(b));
 }
 
-function PI(){
-	return Math.PI;
-}
+const PI = Math.PI;
 
 function square(a){ 
 	return Math.pow(a, 2);
