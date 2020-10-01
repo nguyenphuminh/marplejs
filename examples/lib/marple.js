@@ -1,5 +1,3 @@
-(function(){
-
 function sum(arr){
 	let result=0;
 	for (i=0;i<arr.length;i++){
@@ -19,9 +17,18 @@ function even(num){
 function sumToN(n){
 	let result = 0;
 	let a=1;
-	while (a < n){
+	while (a <= n){
 		result+=a;
 		a++;
+	}
+	return result;
+}
+
+function sumXToY(x,y){
+	let result = 0;
+	while (x <= y){
+		result+=x;
+		x++;
 	}
 	return result;
 }
@@ -50,60 +57,48 @@ function gcd(a,b){
 }
 
 function rndI(a,b){
-	let result = Math.floor(Math.random() * (b+1)) + a;
-	return result;
+	return Math.floor(Math.random() * (b+1)) + a;
 }
 
 function rnd(a,b){
-	let result = Math.random() * (b+1) + a;
-	return result;
+	return Math.random() * (b+1) + a;
 }
 
 function round(a){
-	let result = Math.round(a);
-	return result;
+	return Math.round(a);
 }
 
 function floor(a){
-	let result = Math.floor(a);
-	return result;
+	return Math.floor(a);
 }
 
 function toFix(a,b){
-	let result = a.toFixed(b);
-	return result;
+	return Number(a.toFixed(b));
 }
 
 function PI(){
 	return Math.PI;
 }
 
-function square(a){
-	let result = Math.pow(a, 2);
-	return result;
+function square(a){ 
+	return Math.pow(a, 2);
 }
 
 function sqrt(a){
-	let result = Math.sqrt(a);
-	return result;
+	return Math.sqrt(a);
 }
 
 function pow(a,b){
-	let result = Math.pow(a,b);
-	return result;
+	return Math.pow(a,b);
 }
 
 function divisible(a,b){
-	if (a%b==0) {
-		return true;
-	} else {
-		return false;
-	}
+	return a%b==0;
 }
 
 function prime(a){
-	for (i=2;i<n;i++){
-		if (n%i!=0){
+	for (i=2;i<a;i++){
+		if (a%i==0){
 			return false;
 		}
 	}
@@ -153,4 +148,3 @@ function cos(a){
 function tan(a){
 	return Math.tan(a);
 }
-})();
