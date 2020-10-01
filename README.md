@@ -12,6 +12,7 @@ In your .html file, insert this to the "head" tag:
 <li>odd(num)</li>
 <li>even(num)</li>
 <li>sumToN(n)</li>
+<li>sumXToY(x,y)</li>
 <li>lcm(a,b)</li>
 <li>gcd(a,b)</li>
 <li>rndI(a,b)</li>
