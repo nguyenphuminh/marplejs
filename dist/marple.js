@@ -146,3 +146,34 @@ function cos(a){
 function tan(a){
 	return Math.tan(a);
 }
+
+function findPrime(a,b){
+	let arr=[];
+	let check;
+	for (i=a;i<=b;i++){
+		check=true;
+		for (j=2;j<i;j++){
+			if (i%j==0){
+				check=false;
+			}
+		}
+		if (check != false && i > 2){
+			arr.push(i)
+		}
+	}
+	return arr;
+}
+
+function perfectN(a){
+	let sum=0;
+	for (i=1;i<a;i++){
+		if (a%i==0 && a!=i){
+			sum+=i;
+		}
+	}
+	if (sum == a){
+		return true;
+	} else {
+		return false;
+	}
+}
