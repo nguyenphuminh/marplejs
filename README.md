@@ -29,6 +29,8 @@ In your .html file, insert this to the "head" tag:
 <li>pow(a,b)</li>
 <li>divisible(a,b)</li>
 <li>prime(a)</li>
+<li>findPrime(a,b)</li>
+<li>perfectN(a)</li>
 <li>max(arr)</li>
 <li>min(arr)</li>
 <li>sin(a)</li>
